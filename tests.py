@@ -13,7 +13,7 @@ class TestIntermediateAlgs(unittest.TestCase):
 		self.assertEqual(45, sum_all([10, 5])
 	
 	
-	def test_diff_array(self):
+    def test_diff_array(self):
         """Test diff two arrays function."""
         self.assertTrue(type(diff_array([1, 2, 3, 5], [1, 2, 3, 4, 5])) == list)
         self.assertEqual(["pink wool"], 
